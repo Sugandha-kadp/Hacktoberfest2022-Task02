@@ -1,4 +1,4 @@
-# Hacktoberfest2022-Task01
+# Hacktoberfest2022-Task02
 
 ## Fix the Diamond Shape Pattern Java program.
 
