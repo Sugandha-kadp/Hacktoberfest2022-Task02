@@ -1,4 +1,3 @@
-
 package HacktoberFest2022;
 import java.util.Scanner;
 public class Task02 {
