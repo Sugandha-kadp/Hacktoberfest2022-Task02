@@ -18,7 +18,7 @@ public class Task02 {
       for (i = 1; i <= space; i++) {
         System.out.print(" ");
       }
-      space++;
+      space--;
 
       for (i = 1; i <= 2 * j - 1; i++) {
         System.out.print("*");
