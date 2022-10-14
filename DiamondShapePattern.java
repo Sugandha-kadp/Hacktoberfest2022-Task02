@@ -8,9 +8,9 @@ public class Task02 {
 
     System.out.print("Enter the number of rows you want to print: ");
 
-    Scanner sc = new Scan(System.out);
+    Scanner scan = new Scanner(System.out);
 
-    row = sc.next();
+    row = scan.nextInt();
 
     space = row - 1;
 
@@ -18,9 +18,9 @@ public class Task02 {
       for (i = 1; i <= space; i++) {
         System.out.print(" ");
       }
-      space++;
+      space--;
 
-      for (i = 1; i <= 2 * j - 1; i++) {
+      for (a = 1; a <= 2 * j - 1; a++) {
         System.out.print("*");
       }
       System.out.println("");
@@ -35,9 +35,9 @@ public class Task02 {
       space++;
 
       for (i = 1; i <= 2 * (row - j) - 1; i++) {
-        System.print("*")
+        System.out.print("*")
       }
-      System.println("");
+      System.out.println("");
     }
   }
 }
